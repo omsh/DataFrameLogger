@@ -1,6 +1,10 @@
 # DataFrameLogger
 
-A basic Logger based on Pandas DataFrame useful specifically for training neural networks or other iterative processes that log data sequentially.
+A basic Logger based on [Pandas](https://pandas.pydata.org) useful specifically for training neural networks or other iterative processes that log data sequentially.
+
+- Import the logger class from the `logger.py` file as follows:
+
+  `from logger import DFLogger`
 
 - Initialize the logger in your code providing the names of the dataframe columns (e.g. in your component `__init__` method):
 
