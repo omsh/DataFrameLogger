@@ -6,9 +6,9 @@ A basic Logger based on [Pandas](https://pandas.pydata.org) useful specifically 
 
   `from logger import DFLogger`
 
-- Initialize the logger in your code providing the names of the dataframe columns (e.g. in your component `__init__` method):
+- Initialize the logger in your code providing the names of the dataframe columns (e.g. in your component `__init__` method) and the separator to use:
 
-  `df_logger = DFLogger(column_names='epoch | batch | lr | loss | accuracy | flag')`
+  `df_logger = DFLogger(column_names='epoch | batch | lr | loss | accuracy | flag', sep='|')`
 
 - In your training/evaluation code, you can pass the logged values one by one or as a list (same size as the number of columns provided at inistantiation of the logger):
 
