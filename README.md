@@ -12,9 +12,9 @@ A basic Logger based on [Pandas](https://pandas.pydata.org) useful specifically 
 
 - In your training/evaluation code, you can pass the logged values one by one or as a list (same size as the number of columns provided at inistantiation of the logger):
 
-  `df_logger.log_values_list([self.epoch, batch, self.optimizer.param_groups[0]['lr'], cur_loss, accuracy, 'train'])`
+  `df_logger.log_values_list([epoch_number, batch_number, current_lr, loss_value, accuracy_value, 'train'])`
 
 
 - A call to the plotting function will generate plots for all the numerical columns with some options as grouping per flag. This call can be added for example when training neural networks at the end of each epoch.
 
-  `df_logger.plot_columns(epoch=self.epoch, batches_per_epoch=self.batches_per_epoch, log_interval=self.log_interval)`
+  `df_logger.plot_columns(epoch=epoch_number, batches_per_epoch=train_data_size // batch_size, log_interval=logging_interval)`
