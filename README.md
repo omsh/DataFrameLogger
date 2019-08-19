@@ -2,6 +2,10 @@
 
 A basic Logger based on [Pandas](https://pandas.pydata.org) useful specifically for training neural networks or other iterative processes that log data sequentially.
 
+Required packages are in `requirements.txt`.
+
+Usage:
+
 - Import the logger class from the `logger.py` file as follows:
 
   `from logger import DFLogger`
