@@ -1,5 +1,8 @@
 # DataFrameLogger
 
+[![Docs](https://readthedocs.org/projects/docs/badge/?version=latest)](https://dataframelogger.readthedocs.io/en/latest/?badge=latest)
+
+
 A basic Logger based on [Pandas](https://pandas.pydata.org) useful specifically for training neural networks or other iterative processes that log data sequentially.
 
 Required packages are in `requirements.txt`.
