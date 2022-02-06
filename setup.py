@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=["pandas", "numpy", "matplotlib"],
     extras_require={
-        "dev": ["pytest >= 3.7", "pytest-cov", "black", "twine", "setuptools", "wheel"],
+        "dev": ["pytest >= 3.7", "pytest-cov", "black", "twine", "setuptools", "wheel", "pylint"],
     },
     classifiers=[
         "Programming Language :: Python :: 3",

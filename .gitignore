@@ -130,4 +130,4 @@ dmypy.json
 .vscode/settings.json
 
 # log folders
-./logs/
+logs/*
