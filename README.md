@@ -1,7 +1,7 @@
 # DataFrameLogger
 
 [![Docs](https://readthedocs.org/projects/docs/badge/?version=latest)](https://dataframelogger.readthedocs.io/en/latest/?badge=latest)
-
+[![Upload Python Package](https://github.com/omsh/DataFrameLogger/actions/workflows/python-publish.yaml/badge.svg)](https://github.com/omsh/DataFrameLogger/actions/workflows/python-publish.yaml)
 
 A basic Logger based on [Pandas](https://pandas.pydata.org) useful specifically for training neural networks or other iterative processes that log data sequentially.
 
