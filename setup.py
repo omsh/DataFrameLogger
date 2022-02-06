@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dataframe-logger",
-    version="0.0.1",
+    version="0.0.3",
     author="Omar Shouman",
     author_email="omar.shouman@gmail.com",
     description="Logger for iterative processes.",
